@@ -1,0 +1,28 @@
+
+<div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+    <div class="mdl-layout__header-row">
+        <span class="android-title mdl-layout-title jarbas_logotipo">
+            <img class="android-logo-image" src="images/logo.svg">
+        </span>
+        <!-- Add spacer, to align navigation to the right in desktop -->
+    <div class="android-header-spacer mdl-layout-spacer"></div>
+    <!-- Navigation -->
+    <%-partial('_partial/menu')%>
+        <div class="jarbas_acesso_paciente">
+      <form name="acessoPaciente" action="http://jarbasdoles.ddns.net/cliente.php" method="post" target="iframe_paciente" class="form-inline"
+        onsubmit="document.querySelector('#resultados_de_exames').scrollIntoView()">
+
+
+
+
+        <label class="titulo-form">
+            Resultados dos Exames
+          </label><br>
+        <input placeholder="Protocolo" name="clienteprotocolo" type="text" size="14" title="Protocolo">
+        <input type="text" placeholder="Senha" name="clientesenha" maxlength="6">
+        <button type="submit" class="btn btn-warning">OK</button>
+      </form>
+    </div>
+
+    </div>
+</div>

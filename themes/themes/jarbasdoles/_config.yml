@@ -1,0 +1,19 @@
+#Header
+
+menu: 
+  Home: /
+  Historia: /#historia
+  Convenios: /convenio
+  Equipe: /equipe
+  Contato: /contato
+  Blog: /blog
+  IGE: /ige
+# Read More text
+excerpt_link: Read More
+
+less:
+  compress: true
+
+
+plugins:
+  - hexo-local-image

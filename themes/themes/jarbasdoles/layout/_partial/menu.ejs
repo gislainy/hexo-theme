@@ -1,0 +1,7 @@
+<div class="android-navigation-container">
+    <nav class="android-navigation mdl-navigation jarbas_navigation">
+    <% for (var i in theme.menu){ %>
+    <a class="mdl-navigation__link mdl-typography--text-uppercase menuJarbas menuHistoria" href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
+        <% } %>
+    </nav>
+</div>
